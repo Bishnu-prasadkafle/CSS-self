@@ -1,0 +1,29 @@
+h1::first-letter {
+  font-size: 2em;
+  font-style: italic;
+}
+p::first-line {
+  font-style: italic;
+  color: blue;
+  background-color: rgb(197, 118, 118);
+  text-decoration: underline;
+}
+p::selection {
+  color: white;
+  background-color: cadetblue;
+}
+
+#Books li::before {
+  content: "✔️";
+}
+
+#deep::after {
+  content: "📚";
+}
+#think::after {
+  content: "📚📚";
+}
+
+#habits::after {
+  content: "📚📚📚";
+}
